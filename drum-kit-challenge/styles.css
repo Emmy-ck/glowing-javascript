@@ -17,31 +17,31 @@ footer {
 }
 
 .w {
-
+  background-image: image-set("./images/tom1.png");
 }
 
 .a {
-
+  background-image: url("images/tom2.png"); /* Images can also be set using the url property */
 }
 
 .s {
-
+  background-image: image-set("./images/tom3.png");
 }
 
 .d {
-
+  background-image: image-set("./images/tom4.png");
 }
 
 .j {
-
+  background-image: image-set("./images/snare.png");
 }
 
 .k {
-
+  background-image: image-set("./images/crash.png");
 }
 
 .l {
-
+  background-image: image-set("./images/kick.png");
 }
 
 .set {
@@ -78,4 +78,8 @@ footer {
   text-align: center;
   margin: 10px;
   background-color: white;
+}
+.animateclass {
+  box-shadow: 0 3px 4px 0;
+  opacity: 0.5;
 }
